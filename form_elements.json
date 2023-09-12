@@ -1,0 +1,296 @@
+{
+  "textField":{
+    "name": {
+      "fieldView": "text",
+      "label": "Name"
+    },
+    "value": {
+      "fieldView":"text",
+      "label": "Value"
+    },
+    "size": {
+      "fieldView": "text",
+      "label": "Characters Width"
+    },
+    "maxlength":{
+      "fieldView": "text",
+      "label": "Maximum Characters"
+    },
+    "type": {
+      "fieldView": "dropdown",
+      "label": "Type",
+      "class": "ck-text-ui__type",
+      "options":[
+        {"key": "text", "text":"Text"},
+        {"key": "email", "text":"Email"},
+        {"key": "password", "text":"Password"},
+        {"key": "search", "text":"Search"},
+        {"key": "tel", "text":"Telephone number"},
+        {"key": "url", "text":"URL"}
+      ]
+    }
+  },
+  "button":{
+    "name": {
+      "fieldView": "text",
+      "label": "Name",
+      "class": "ck-button-ui__name"
+    },
+    "value": {
+      "fieldView":"text",
+      "label": "Text(Value)"
+    },
+    "type": {
+      "fieldView": "dropdown",
+      "label": "Type",
+      "options":[
+        {"key": "button", "text":"Button"},
+        {"key": "submit", "text":"Submit"},
+        {"key": "reset", "text":"Reset"}
+      ]
+    }
+  },
+  "hiddenField":{
+    "name": {
+      "fieldView": "text",
+      "label": "Name"
+    },
+    "value": {
+      "fieldView":"text",
+      "label": "Value"
+    }
+  },
+  "checkbox":{
+    "name": {
+      "fieldView": "text",
+      "label": "Name"
+    },
+    "value": {
+      "fieldView":"text",
+      "label": "Value"
+    },
+    "checked": {
+      "fieldView": "switch",
+      "label": "Checked",
+      "class": "ck-switch-ui__checked"
+    }
+  },
+  "radiobutton":{
+    "name": {
+      "fieldView": "text",
+      "label": "Name"
+    },
+    "value": {
+      "fieldView":"text",
+      "label": "Value"
+    },
+    "checked": {
+      "fieldView": "switch",
+      "label": "Selected",
+      "class": "ck-switch-ui__checked"
+    }
+  },
+  "textArea":{
+    "name": {
+      "fieldView": "text",
+      "label": "Name"
+    },
+    "rows": {
+      "fieldView":"text",
+      "label": "Rows"
+    },
+    "cols": {
+      "fieldView":"text",
+      "label": "Columns"
+    },
+    "value": {
+      "fieldView":"text",
+      "label": "Value"
+    }
+  },
+  "imageButton":{
+    "info" : {
+      "src": {
+        "class": "ck-imgbutton-ui__url",
+        "fieldView": "text",
+        "label": "URL"
+      },
+      "alt": {
+        "fieldView":"text",
+        "label": "Alternative Text",
+        "class": "ck-imgbutton-ui__alt"
+      },
+      "width": {
+        "fieldView": "numeric",
+        "label": "Width",
+        "class": "ck-imgbutton-ui__width",
+        "min": 0,
+        "max": 500
+      },
+      "height": {
+        "fieldView": "numeric",
+        "label": "Height",
+        "class": "ck-imgbutton-ui__height",
+        "min": 0,
+        "max":500
+      },
+      "border": {
+        "fieldView": "numeric",
+        "label": "Border",
+        "class": "ck-imgbutton-ui__border",
+        "min": 0,
+        "max":20
+      },
+      "align": {
+        "fieldView": "dropdown",
+        "label": "Alignment",
+        "options":[
+          {"key": "default", "text":"<not set>"},
+          {"key": "left", "text":"Left"},
+          {"key": "right", "text":"Right"}
+        ],
+        "class": "ck-imgbutton-ui__align"
+      },
+      "hspace": {
+        "fieldView": "numeric",
+        "label": "HSpace",
+        "class": "ck-imgbutton-ui__hspace",
+        "min": 0,
+        "max": 500
+      },
+      "vspace": {
+        "fieldView": "numeric",
+        "label": "VSpace",
+        "class": "ck-imgbutton-ui__vspace",
+        "min": 0,
+        "max": 500  
+      }
+      
+    },
+    "advanced":{
+      "id" : {
+        "fieldView":"text",
+        "label": "Id",
+        "class": "ck-imgbutton-ui__ID"
+      },
+      "dir" : {
+        "fieldView": "dropdown",
+        "label": "Language Direction",
+        "options":[
+          {"key": "inherit", "text":"<not set>"},
+          {"key": "ltr", "text":"Left To Right (LTR)"},
+          {"key": "rtl", "text":"Right To Left (RTL)"}
+        ],
+        "class": "ck-imgbutton-ui__dir"
+      },
+      "lang" : {
+        "fieldView": "text",
+        "label": "Language Code",
+        "class": "ck-imgbutton-ui__lang"
+      },
+      "longdesc" : {
+        "fieldView": "text",
+        "label": "Long Description URL",
+        "class": "ck-imgbutton-ui__longdesc"
+      },
+      "class" : {
+        "fieldView": "text",
+        "label": "Stylesheet Classes",
+        "class": "ck-imgbutton-ui__class"
+      },
+      "title" : {
+        "fieldView": "text",
+        "label": "Advisory Title",
+        "class": "ck-imgbutton-ui__title"
+      },
+      "style" : {
+        "fieldView": "text",
+        "label": "Style",
+        "class": "ck-imgbutton-ui__style",
+        "readonly": true
+      }
+    }
+  },
+  "selectionField":{
+    "name":{
+      "fieldView": "text",
+      "label": "Name",
+      "class": "selection-field"
+    },
+    "value":{
+      "fieldView": "text",
+      "label": "Value",
+      "class": "half-width",
+      "readonly": true
+    },
+    "size":{
+      "fieldView": "text",
+      "label": "Size",
+      "class": "half-width ml-2"
+    },
+    "multiple":{
+      "fieldView": "switch",
+      "class":"ck-selection__multiple",
+      "label": "Allow multiple selections"
+    }
+  },
+  "form":{
+    "name":{
+      "fieldView": "text",
+      "label": "Name"
+    },
+    "action":{
+      "fieldView": "text",
+      "label": "Action"
+    },
+    "id":{
+      "fieldView": "text",
+      "label": "Id"
+    },
+    "encoding":{
+      "fieldView": "dropdown",
+      "label": "Encoding",
+      "class": "ck-form-dropdown",
+      "options":[
+        { 
+          "key": "text/plain", 
+          "text":"text/plain"
+        },
+        { 
+          "key": "multipart/form-data", 
+          "text":"multipart/form-data"
+        },
+        {
+          "key": " application/x-www-form-urlencoded",
+          "text":" application/x-www-form-urlencoded"
+        }
+      ]
+    },
+    "target":{
+      "fieldView": "dropdown",
+      "label": "Target",
+      "class": "ck-form-dropdown",
+      "options":[
+       { "key" : "_blank", "text" : "New Window (_blank)" },
+       { "key" : "_top", "text" : "Topmost Window (_top)" },
+       { "key" : "_self", "text" : "Same Window (_self)" },
+       { "key" : "_parent", "text" : "Parent Window (_parent)" }
+      ]
+    },
+    "method":{
+      "fieldView": "dropdown",
+      "label": "Method",
+      "class": "ck-form-dropdown",
+      "options":[
+        { 
+          "key": "get", 
+          "text":"GET"
+        },
+        { 
+          "key": "post", 
+          "text":"POST"
+        }
+      ]
+    }
+  }
+}

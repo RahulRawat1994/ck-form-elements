@@ -1,0 +1,283 @@
+/*
+ * ck form element plugin syle 
+ */
+.ck.ck-form-element{
+  margin: var(--ck-spacing-large);
+  & .ck-labeled-field-view {
+    margin-bottom:10px;
+  }
+  & .ck-list {
+    height: auto !important;
+  } 
+
+}
+
+.ck-field__button{
+  padding: 0px 8px;
+  border: 1px solid #03b6fc;
+  display: inline-block;
+  background: #eee;
+  border-radius: 6px;
+}
+
+
+.ck-field__textfield{
+  padding: 0px 8px;
+  border: 1px solid #03b6fc;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+.ck-field__hidden{
+  padding: 0px 0px;
+  border: 1px solid #03b6fc;
+  box-shadow: 1px 0px 0px #03b6fc;
+  border-radius: 2px;
+  vertical-align: bottom;
+}
+
+.ck-field__textarea{
+  padding: 0px 8px;
+  border: 1px solid #03b6fc;
+  box-shadow: 1px 0px 0px #03b6fc;
+  border-radius: 2px;
+}
+.ck.ck-button.ck-switch-ui__checked {
+  display: flex !important;
+}
+
+.ck.ck-form-element .ck.ck-dropdown {
+  border: 1px solid #c7c7c7;
+}
+
+.ck-form-element .ck.ck-button.ck-button-save,
+.ck-form-element .ck.ck-button.ck-button-cancel {
+  border: 1px solid #c7c7c7;
+  margin-top: 10px;
+  background: #eaeaea;
+  margin-bottom: var(--ck-spacing-tiny);
+}
+.ck-form-element .ck.ck-button.ck-button-cancel{
+  margin-left: var(--ck-spacing-standard);
+}
+
+.ck-switchbutton {
+  padding-left: 1px !important;
+}
+.ck.ck-labeled-field-view > .ck.ck-labeled-field-view__input-wrapper > .ck.ck-label {
+  left: 0 !important;
+}
+.ck-field__checkbox.ck-widget, .ck-field__radiobutton.ck-widget{
+  vertical-align: middle;
+}
+.ck-field__textfield.ck-widget {
+  width: 200px;
+}
+.ck-text-ui__type .ck.ck-dropdown{
+  width: 150px;
+}
+.ck-text-ui__type .ck.ck-button__label{
+  width: 130px !important;
+}
+
+/* Image Button Css */
+
+.ck.ck-image-button-form{
+  max-width:  calc(var(--ck-dropdown-max-width) - var(--ck-spacing-large)*2 );
+  width: 300px;
+  padding:0px;
+
+  & .ck.ck-image-button-form__info,
+  & .ck.ck-image-button-form__advanced{
+    border: 0px ;
+    border-top: 1px groove #dfdee3;
+    border-bottom: 1px groove #dfdee3;
+    white-space: normal;
+    min-width: 100px;
+    padding-left:0px;
+    & .ck.ck-labeled-field-view{
+      margin-left:10px;
+    }
+  }
+  
+
+  & .ck.ck-image-info-form__button{
+    border:0px
+  }
+  
+  & .ck-image-button-tab__link.active{
+    background:#ccc;
+  }
+  
+  & .ck-image-button-form__preview{
+    max-height: 150px;
+    overflow: scroll;
+    max-width: 280px;
+    margin-left: 10px;
+  }
+  
+  & .ck-form-element-hidden{
+    display: none;
+  }
+  
+}
+.ck.ck-form-element.ck-image-button-form{
+  margin:0px;
+}
+
+.ck-field__selection::after{
+  font-family: "Material Icons";
+  content: "expand_more";
+  padding-left: 12px;
+  vertical-align: middle;
+}
+
+.ck-imgbutton-ui__border , 
+.ck-imgbutton-ui__width ,
+.ck-imgbutton-ui__height ,
+.ck-imgbutton-ui__vspace ,
+.ck-imgbutton-ui__hspace ,
+.ck-imgbutton-ui__align {
+  max-width: calc(100%/2 - 10px) !important;
+  display: inline-block;
+  vertical-align: top;
+  
+  & .ck.ck-dropdown,
+  & .ck.ck-input{
+    
+    min-width: 100%;
+  }
+}
+.ck-imgbutton-ui__align .ck.ck-dropdown .ck-button.ck-dropdown__button .ck-button__label{
+  width: 9rem;
+}
+.ck-imgbutton-ui__url ,
+.ck-imgbutton-ui__alt ,
+.ck-imgbutton-ui__ID ,
+.ck-imgbutton-ui__dir ,
+.ck-imgbutton-ui__lang ,
+.ck-imgbutton-ui__longdesc ,
+.ck-imgbutton-ui__class ,
+.ck-imgbutton-ui__title ,
+.ck-imgbutton-ui__style {
+  max-width: calc(100% - 10px) !important;
+ 
+  & .ck.ck-input, 
+  & .ck.ck-dropdown {
+    min-width: 100%;
+    margin-left:0px;
+    
+  }
+}
+.ck.ck-labeled-field-view .ck-labeled-field-view__status.ck-labeled-field-view__status_error{
+  font-size: 9.25px;
+}
+.ck-imgbutton-ui__dir .ck.ck-dropdown .ck-button.ck-dropdown__button .ck-button__label{
+  min-width: 17rem;
+}
+
+
+.ck.ck-button.ck-button-save.ck-image-button-save, 
+.ck.ck-button.ck-button-cancel.ck-image-button-cancel{
+  border: 1px solid #c7c7c7;
+  margin-top: 0px;
+  margin-left:10px; 
+  margin-right:0px;
+  background: #eaeaea;
+}
+
+/* Selection Field */
+.ck.ck-selection-field-form {
+  width: 300px;
+  max-width: calc(var(--ck-dropdown-max-width) - var(--ck-spacing-large)*2 );
+  margin:var(--ck-spacing-large);
+
+  & .ck.half-width {
+    max-width: calc( (100%/2) - 4px);
+    display: inline-block;
+    vertical-align: top;
+    & .ck-input {
+      min-width: 100%;
+    }
+  }
+
+  & .ck.ck-switchbutton{
+    display: flex;
+    flex-direction: row-reverse;
+    & .ck-button__label {
+      margin-right: unset;
+      margin-left: var(--ck-spacing-large);
+    }
+    &.ck-button:not(.ck-disabled):hover, 
+    &.ck-button.ck-on:not(.ck-disabled):hover,
+    &.ck.ck-button.ck-on{
+      background: transparent;
+    }
+  }
+  & .ck.ck-button.ck-button-save {
+    margin-left:0px !important;
+  }
+}
+
+.ck.ck-selection-field-options {
+  border-top: 1px solid #c7c7c7;
+  margin-top: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid #c7c7c7;
+
+  & .ck-option-form{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top:5px;
+    & .ck-input{
+      width:100%;
+      min-width: 0rem;
+    }
+  }
+  & .ck-button-option {
+    max-width: 30px;
+    margin: 0px 0px 10px 10px !important;
+    border: 1px solid #c7c7c7;
+    background-color: #eaeaea;
+  }
+  & .ck-options-list{
+    max-height: 100px;
+    overflow:auto;
+    & .row div{
+      border:1px solid #eee;
+      text-align: center;
+      white-space: normal;
+    }
+  }
+  & i.mdi{
+    cursor: pointer;
+  }
+}
+.ck .font-weight-bold{
+  font-weight: bold;
+}
+
+.ck-field__selection {
+  appearance: button;
+  border: 1px solid #03b6fc;
+  background-color: #eee;
+  padding: 0px var(--ck-spacing-small);
+}
+
+.ck-selection-field-form .selection-field .ck.ck-input{
+  min-width: 100%;
+}
+/* Form Field */
+
+section.ck-form-layout {
+  border:15px solid #ccc !important;
+  
+}
+
+
+.ck-form-dropdown .ck.ck-dropdown{
+  width: 100%;
+  & .ck-button.ck-dropdown__button .ck-button__label{
+    width: 100%;
+  }
+}
